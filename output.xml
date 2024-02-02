@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.12 on darwin)" generated="20240202 16:25:03.735" rpa="false" schemaversion="3">
+<suite id="s1" name="Register Test" source="/Users/pancag/Documents/Estudos/Estudos_dev/QA_Academy/repos/robotframework-tests/tests/register_test.robot">
+<test id="s1-t1" name="Register in a website" line="6">
+<kw name="Access the url and initial settings" library="general_keyword">
+<kw name="Open Browser">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<msg timestamp="20240202 16:25:03.761" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20240202 16:25:03.761" endtime="20240202 16:25:03.762"/>
+</kw>
+<status status="FAIL" starttime="20240202 16:25:03.760" endtime="20240202 16:25:03.763"/>
+</kw>
+<kw name="Registration fields" library="general_keyword">
+<status status="NOT RUN" starttime="20240202 16:25:03.763" endtime="20240202 16:25:03.763"/>
+</kw>
+<status status="FAIL" starttime="20240202 16:25:03.759" endtime="20240202 16:25:03.763">No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" starttime="20240202 16:25:03.739" endtime="20240202 16:25:03.764"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Register Test">Register Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240202 16:25:03.752" level="ERROR">Error in file '/Users/pancag/Documents/Estudos/Estudos_dev/QA_Academy/repos/robotframework-tests/tests/register_test.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/pancag/.vscode/extensions/robocorp.robotframework-lsp-1.11.0/src/robotframework_debug_adapter
+  /Users/pancag/Documents/Estudos/Estudos_dev/QA_Academy/repos/robotframework-tests
+  /Users/pancag/.vscode/extensions/robocorp.robotframework-lsp-1.11.0/src
+  /Users/pancag/.vscode/extensions/robocorp.robotframework-lsp-1.11.0/src/robotframework_ls/vendored
+  /Users/Shared/robocorp/ht/b98a794_b1f3c24_5ff390c2/lib/python310.zip
+  /Users/Shared/robocorp/ht/b98a794_b1f3c24_5ff390c2/lib/python3.10
+  /Users/Shared/robocorp/ht/b98a794_b1f3c24_5ff390c2/lib/python3.10/lib-dynload
+  /Users/Shared/robocorp/ht/b98a794_b1f3c24_5ff390c2/lib/python3.10/site-packages</msg>
+<msg timestamp="20240202 16:25:03.756" level="ERROR">Error in file '/Users/pancag/Documents/Estudos/Estudos_dev/QA_Academy/repos/robotframework-tests/resource/PageObject/KeywordDefinition/general_keyword.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/pancag/.vscode/extensions/robocorp.robotframework-lsp-1.11.0/src/robotframework_debug_adapter
+  /Users/pancag/Documents/Estudos/Estudos_dev/QA_Academy/repos/robotframework-tests
+  /Users/pancag/.vscode/extensions/robocorp.robotframework-lsp-1.11.0/src
+  /Users/pancag/.vscode/extensions/robocorp.robotframework-lsp-1.11.0/src/robotframework_ls/vendored
+  /Users/Shared/robocorp/ht/b98a794_b1f3c24_5ff390c2/lib/python310.zip
+  /Users/Shared/robocorp/ht/b98a794_b1f3c24_5ff390c2/lib/python3.10
+  /Users/Shared/robocorp/ht/b98a794_b1f3c24_5ff390c2/lib/python3.10/lib-dynload
+  /Users/Shared/robocorp/ht/b98a794_b1f3c24_5ff390c2/lib/python3.10/site-packages</msg>
+<msg timestamp="20240202 16:25:03.757" level="ERROR">Error in file '/Users/pancag/Documents/Estudos/Estudos_dev/QA_Academy/repos/robotframework-tests/resource/PageObject/KeywordDefinition/general_keyword.robot' on line 3: Library '../../../venv/Lib/site-packages/robot/libraries/OperatingSystem.py' does not exist.</msg>
+<msg timestamp="20240202 16:25:03.758" level="ERROR">Error in file '/Users/pancag/Documents/Estudos/Estudos_dev/QA_Academy/repos/robotframework-tests/resource/PageObject/KeywordDefinition/general_keyword.robot' on line 4: Library '../../../venv/Lib/site-packages/robot/libraries/Process.py' does not exist.</msg>
+</errors>
+</robot>
