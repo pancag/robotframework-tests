@@ -1,4 +1,4 @@
-# Projeto de teste automatizado Robot Framework, utiliando python e page object.
+# Projeto de teste automatizado Robot Framework
 
 Esse projeto tem como objetivo exemplificar o funcionamento do processo de automação de testes usando [Robot Framerowk], [python] e [SeleniumLibrary]. O código é desenvolvido pensado no padrão de page object, usando funcionalidades como:
 
