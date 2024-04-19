@@ -1,8 +1,6 @@
-from convert_info import user_convert, key_convert, name_convert
+from information_data import extract_data
 
-user = user_convert
-key = key_convert
-name = name_convert
+user, key, name = extract_data()
 user_xpath = "//input[@name='form_usuario']"
 key_xpath = "//input[@name='form_senha']"
 name_xpath = "//input[@name='form_nome']"
