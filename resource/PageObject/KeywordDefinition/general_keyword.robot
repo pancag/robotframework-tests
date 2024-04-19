@@ -1,18 +1,17 @@
 *** Settings ***
 Library     SeleniumLibrary
+Library    OperatingSystem
 Variables    ../Locator/general_locator.py
-Variables    ../DataTests/information_data.py
 
 *** Variables ***
-${url}    https://demo.automationtesting.in/Register.html
+${url}    http://aprendendotestar.com.br/treinar-automacao.php
 ${browser}    chrome
-
 
 *** Keywords ***
 Access the url and initial settings
-    Open Browser    ${url}    ${browser}
+    Open Browser    ${url}    ${browser}  
 Registration fields
-    Input Text    ${firstName_xpath}    ${firstName}    
-    Input Text    ${lastName_xpath}    lastName
-    Input Text    ${email_xpath}    email
-    Input Text    ${phone_xpath}    phone
+    Input Text    ${user_xpath}    ${user}    
+    Input Text    ${key_xpath}     ${key} 
+    Input Text    ${name_xpath}    ${name} 
+    Click Button    ${btnEnviar_xpath}    

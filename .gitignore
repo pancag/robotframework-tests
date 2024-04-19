@@ -16,5 +16,6 @@ testrun/*
 .~lock*
 *.pkl
 log.html
+report.html
 *output.xml
-mark.png
+*.png
